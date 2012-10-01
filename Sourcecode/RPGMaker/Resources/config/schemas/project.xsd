@@ -1,0 +1,1344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="project">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="properties" type="propertiesType" />
+        <xs:element name="characters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="character" minOccurs="0" maxOccurs="unbounded" type="characterType" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="enemies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="enemy" minOccurs="0" maxOccurs="unbounded" type="enemyType" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="battlegroups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="battlegroup" minOccurs="0" maxOccurs="unbounded" type="battlegroupType" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="objects">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="object" minOccurs="0" maxOccurs="unbounded" type="objectType" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="events">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="textEvent" minOccurs="0" maxOccurs="unbounded" type="textEventType" />
+              <xs:element name="portalEvent" minOccurs="0" maxOccurs="unbounded" type="portalEventType" />
+              <xs:element name="battleEvent" minOccurs="0" maxOccurs="unbounded" type="battleEventType" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="environments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="environment" minOccurs="0" maxOccurs="unbounded" type="environmentType" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="start" type="startEventType" />
+      </xs:sequence>
+      <xs:attribute name="title" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+
+    <xs:key name="attributesKey">
+      <xs:selector xpath="./properties/attributes/*" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="offensiveKey">
+      <xs:selector xpath="./properties/attributes/offensive" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="defensiveKey">
+      <xs:selector xpath="./properties/attributes/defensive" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="elementsKey">
+      <xs:selector xpath="./properties/elements/element" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="abilitiesKey">
+      <xs:selector xpath="./properties/abilities/*/ability" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="classesKey">
+      <xs:selector xpath="./properties/classes/class" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="weaponsKey">
+      <xs:selector xpath="./properties/equipment/weapons/weapon" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="armorKey">
+      <xs:selector xpath="./properties/equipment/armor/armor" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="accessoriesKey">
+      <xs:selector xpath="./properties/equipment/accessories/accessory" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="itemskey">
+      <xs:selector xpath="./properties/items/item" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="tilesetsKey">
+      <xs:selector xpath="./properties/tilesets/tileset" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="charactersKey">
+      <xs:selector xpath="./characters/character" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="enemiesKey">
+      <xs:selector xpath="./enemies/enemy" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="battlegroupsKey">
+      <xs:selector xpath="./battlegroups/battlegroup" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="objectsKey">
+      <xs:selector xpath="./objects/object" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    <xs:key name="eventsKey">
+      <xs:selector xpath="./events/*" />
+      <xs:field xpath="@ID" />
+    </xs:key>
+    <xs:key name="environmentsKey">
+      <xs:selector xpath="./environments/environment" />
+      <xs:field xpath="@name" />
+    </xs:key>
+    
+    <xs:keyref name="offensiveLinkRef" refer="defensiveKey" >
+      <xs:selector xpath="./properties/attributes/offensive/link" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="defensiveLinkRef" refer="offensiveKey" >
+      <xs:selector xpath="./properties/attributes/defensive/link" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="resistantRef" refer="elementsKey" >
+      <xs:selector xpath="./properties/elements/element/resistant/element" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="vulnerableRef" refer="elementsKey" >
+      <xs:selector xpath="./properties/elements/element/vulnerable/element" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="abilityElementRef" refer="elementsKey" >
+      <xs:selector xpath="./properties/abilities/elements/element" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="abilityAttributeRef" refer="offensiveKey" >
+      <xs:selector xpath="./properties/abilities/*/ability/attribute" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="classAttributeRef" refer="attributesKey" >
+      <xs:selector xpath="./properties/classes/class/attributes/attribute" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="classPrimaryAttributeRef" refer="attributesKey">
+      <xs:selector xpath="./properties/classes/class/attributes/primaryAttribute" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="classAbilityRef" refer="abilitiesKey" >
+      <xs:selector xpath="." />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="equipemtElementRef" refer="elementsKey">
+      <xs:selector xpath="./properties/equipment/*/*/elements/element" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="equipmentAttributeRef" refer="attributesKey">
+      <xs:selector xpath="./properties/equipment/*/*/attributes/attribute" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="equipmentClassRef" refer="classesKey">
+      <xs:selector xpath="./properties/equipment/*/*/classes/class" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="characterClassRef" refer="classesKey">
+      <xs:selector xpath="./characters/character/class" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="characterElementRef" refer="elementsKey">
+      <xs:selector xpath="./characters/character/elements/element" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="characterAbilityRef" refer="abilitiesKey">
+      <xs:selector xpath="./characters/character/abilities/ability" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="characterWeaponRef" refer="weaponsKey">
+      <xs:selector xpath="./characters/character/equipment/weapons/weapon" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="characterArmorRef" refer="armorKey">
+      <xs:selector xpath="./characters/character/equipment/armor/*" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="characterAccessoireRef" refer="accessoriesKey">
+      <xs:selector xpath="./characters/character/equipment/accessories/*" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="enemyElementRef" refer="elementsKey">
+      <xs:selector xpath="./enemies/enemy/elements/element" />
+      <xs:field xpath="name" />
+    </xs:keyref>
+    <xs:keyref name="enemyAbilityRef" refer="abilitiesKey">
+      <xs:selector xpath="./enemies/enemy/abilities/ability" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="enemyClassRef" refer="classesKey">
+      <xs:selector xpath="./enemies/enemy/class" />
+      <xs:field xpath="@name"/>
+    </xs:keyref>
+    <xs:keyref name="enemyWeaponRef" refer="weaponsKey">
+      <xs:selector xpath="./enemies/enemy/drops/equipment/weapon" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="enemyArmorRef" refer="armorKey">
+      <xs:selector xpath="./enemies/enemy/drops/equipment/armor" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="enemyAccessoireRef" refer="accessoriesKey">
+      <xs:selector xpath="./enemies/enemy/drops/equipment/accessory" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="eventFollowupRef" refer="eventsKey">
+      <xs:selector xpath="./events/*/followupEvent" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="eventRequirementRef" refer="eventsKey">
+      <xs:selector xpath="./events/*/requirements/event" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="eventObjectRef" refer="objectsKey">
+      <xs:selector xpath="./events/*/object" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="portalEventEnvironmentRef" refer="environmentsKey">
+      <xs:selector xpath="./events/portalEvent/to" />
+      <xs:field xpath="@location" />
+    </xs:keyref>
+    <xs:keyref name="battleEventBattlegroupRef" refer="battlegroupsKey">
+      <xs:selector xpath="./battlegroups/battlegroup" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="environmentTilesetRef" refer="tilesetsKey">
+      <xs:selector xpath="./environments/environment/layers/layer/tile/tileset" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="environmentEventRef" refer="eventsKey">
+      <xs:selector xpath="./environments/environment/events/event" />
+      <xs:field xpath="@ID" />
+    </xs:keyref>
+    <xs:keyref name="startEventEnvironmentRef" refer="environmentsKey">
+      <xs:selector xpath="./start/location" />
+      <xs:field xpath="@environment" />
+    </xs:keyref>
+    <xs:keyref name="startEventCharacterRef" refer="charactersKey">
+      <xs:selector xpath="./start/party/character" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="startEventInventoryWeaponRef" refer="weaponsKey">
+      <xs:selector xpath="./start/inventory/weapon" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="startEventInventoryArmorRef" refer="armorKey">
+      <xs:selector xpath="./start/inventory/armor" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="startEventInventoryAccessoryRef" refer="accessoriesKey">
+      <xs:selector xpath="./start/inventory/accessory" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+  </xs:element>
+
+  <xs:complexType name="propertiesType" >
+    <xs:sequence>
+      <xs:element name="attributes" type="attributesType" />
+      <xs:element name="elements" type="elementsType" />
+      <xs:element name="abilities" type="abilitiesType" />
+      <xs:element name="classes" type="classesType" />
+      <xs:element name="equipment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="weapons">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="weapon" minOccurs="0" maxOccurs="unbounded" type="weaponType" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="armor">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="armor" minOccurs="0" maxOccurs="unbounded" type="armorType" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="accessories">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="accessory" minOccurs="0" maxOccurs="unbounded" type="accessoryType" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="items">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="item" minOccurs="0" maxOccurs="unbounded" type="itemType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="tilesets">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="tileset" minOccurs="0" maxOccurs="unbounded" type="tilesetType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="attributesType">
+    <xs:sequence>
+      <xs:element name="lifesource" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" use ="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="energysource" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" use ="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agilityforce" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" use ="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="evasionforce" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" use ="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="offensive" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="link" minOccurs="0" maxOccurs="1">
+              <xs:complexType>
+                <xs:attribute name="name" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="name" use ="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="defensive" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="link" minOccurs="0" maxOccurs="1">
+              <xs:complexType>
+                <xs:attribute name="name" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="name" use ="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="elementsType">
+    <xs:sequence>
+      <xs:element name="element" minOccurs="0" maxOccurs="unbounded" >
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="resistant">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="element" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="vulnerable">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="element" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="name" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="abilitiesType">
+    <xs:sequence>
+      <xs:element name="offensive">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="ability" minOccurs="0" maxOccurs="unbounded" >
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="cost">
+                    <xs:complexType>
+                      <xs:attribute name="value" use="required" type="xs:short" /> 
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="description" type="xs:string" />
+                  <xs:element name="elements">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="element" minOccurs="0" maxOccurs="unbounded" >
+                          <xs:complexType>
+                            <xs:attribute name="name" type="xs:string" use="required" />
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="attribute" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                      <xs:attribute name="multiplier" use="required" type="xs:float" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="name" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="defensive">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="ability" minOccurs="0" maxOccurs="unbounded" >
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="cost">
+                    <xs:complexType>
+                      <xs:attribute name="value" use="required" type="xs:short" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="description" type="xs:string" />
+                  <xs:element name="elements">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="element" minOccurs="0" maxOccurs="unbounded" >
+                          <xs:complexType>
+                            <xs:attribute name="name" type="xs:string" use="required" />
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="attribute" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                      <xs:attribute name="multiplier" use="required" type="xs:float" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="name" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="classesType">
+    <xs:sequence>
+      <xs:element name="class" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="attributes" >
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="attribute" minOccurs="0" maxOccurs="unbounded" >
+                    <xs:complexType>
+                      <xs:attribute name="name" type="xs:string" use="required" />
+                      <xs:attribute name="initial" type="xs:short" use="required" />
+                      <xs:attribute name="multiplier" type="xs:float" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="primaryAttribute" minOccurs="0" maxOccurs="1">
+              <xs:complexType>
+                <xs:attribute name="name" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="abilities" >
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ability" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                      <xs:attribute name="acquire" use="required" type="xs:int" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="name" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="equipmentType">
+    <xs:sequence>
+      <xs:element name="description" type="xs:string" />
+      <xs:element name="elements">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="element" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="attributes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="attribute" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" type="xs:string" use="required" />
+                <xs:attribute name="value" type="xs:short" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="classes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="class" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" type="xs:string" use="required" />
+                <xs:attribute name="level" type="xs:short" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="weaponType" >
+    <xs:complexContent>
+      <xs:extension base="equipmentType">
+        <xs:attribute name="type" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="mainHand" />
+              <xs:enumeration value="offHand" />
+              <xs:enumeration value="twoHanded" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="armorType">
+    <xs:complexContent>
+      <xs:extension base="equipmentType">
+        <xs:attribute name="type" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="helmet" />
+              <xs:enumeration value="torso" />
+              <xs:enumeration value="leggings" />
+              <xs:enumeration value="gloves" />
+              <xs:enumeration value="boots" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="accessoryType">
+    <xs:complexContent>
+      <xs:extension base="equipmentType">
+        <xs:attribute name="type" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="earring" />
+              <xs:enumeration value="necklace" />
+              <xs:enumeration value="ring" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="itemType">
+    <xs:sequence>
+      <xs:element name="description" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="name" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="tilesetType">
+    <xs:sequence>
+      <xs:element name="type">
+        <xs:complexType>
+          <xs:attribute name="value" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="STATIC" />
+                <xs:enumeration value="AUTO" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="image">
+        <xs:complexType>
+          <xs:attribute name="name" use="required" type="xs:string" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="tiles">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="tile" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="row" use="required" type="xs:short" />
+                <xs:attribute name="column" use="required" type="xs:short" />
+                <xs:attribute name="access" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:enumeration value="OVER" />
+                      <xs:enumeration value="UNDER" />
+                      <xs:enumeration value="NONE" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" use="required" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="characterType" >
+    <xs:sequence>
+      <xs:element name="level">
+        <xs:complexType>
+          <xs:attribute name="value" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:short">
+                <xs:minInclusive value="0" />
+                <xs:maxInclusive value="99" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="class" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" type="xs:string" use="required" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="biography" type="xs:string" />
+      <xs:element name="elements">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="element" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="abilities" >
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="ability" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+                <xs:attribute name="acquire" use="required" type="xs:int" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="equipment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="weapons">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="weapon" minOccurs="0" maxOccurs="2">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string"/>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="armor">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="helmet" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="torso" minOccurs="0" maxOccurs="1" >
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="leggings" minOccurs="0" maxOccurs="1" >
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="gloves" minOccurs="0" maxOccurs="1" >
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="boots" minOccurs="0" maxOccurs="1" >
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="accessories">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="earring" minOccurs="0" maxOccurs="1" >
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="necklace" minOccurs="0" maxOccurs="1" >
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="ring" minOccurs="0" maxOccurs="1" >
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="images">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="environment">
+              <xs:complexType>
+                <xs:attribute name="image" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="battle">
+              <xs:complexType>
+                <xs:attribute name="image" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="enemyType">
+    <xs:sequence>
+      <xs:element name="level">
+        <xs:complexType>
+          <xs:attribute name="value" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:short">
+                <xs:minInclusive value="0" />
+                <xs:maxInclusive value="99" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="class" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" type="xs:string" use="required" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="description" type="xs:string" />
+      <xs:element name="elements">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="element" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="abilities">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="ability" minOccurs="0" maxOccurs="unbounded" >
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="drops">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="experience">
+              <xs:complexType>
+                <xs:attribute name="value" use="required" type="xs:short" />
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="currency">
+              <xs:complexType>
+                <xs:attribute name="minValue" use="required" type="xs:short" />
+                <xs:attribute name="maxValue" use="required" type="xs:short" />
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="equipment">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="weapon" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string"/>
+                      <xs:attribute name="chance" use="required">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:short">
+                            <xs:minExclusive value="0" />
+                            <xs:maxInclusive value="100" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:attribute>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="armor" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string"/>
+                      <xs:attribute name="chance" use="required">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:short">
+                            <xs:minExclusive value="0" />
+                            <xs:maxInclusive value="100" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:attribute>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="accessory" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:attribute name="name" use="required" type="xs:string"/>
+                      <xs:attribute name="chance" use="required">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:short">
+                            <xs:minExclusive value="0" />
+                            <xs:maxInclusive value="100" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:attribute>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="images">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="environment">
+              <xs:complexType>
+                <xs:attribute name="image" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="battle">
+              <xs:complexType>
+                <xs:attribute name="image" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="battlegroupType" >
+    <xs:sequence>
+      <xs:element name="sound">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="backgroundmusic">
+              <xs:complexType>
+                <xs:attribute name="title" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="victorymusic">
+              <xs:complexType>
+                <xs:attribute name="title" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="enemy" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="name" use="required" type="xs:string" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="^([a-zA-Z0-9\s']){1,25}$" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="objectType">
+    <xs:sequence>
+      <xs:element name="image" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" use="required" type="xs:string" />
+          <xs:attribute name="row" use="required" type="xs:short" />
+          <xs:attribute name="column" use="required" type="xs:short" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" use="required" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="eventType">
+    <xs:sequence>
+      <xs:element name="type">
+        <xs:complexType>
+          <xs:attribute name="value" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="PORTAL" />
+                <xs:enumeration value="TEXT" />
+                <xs:enumeration value="BATTLE" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="trigger">
+        <xs:complexType>
+          <xs:attribute name="value" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="TOUCH" />
+                <xs:enumeration value="INTERACT" />
+                <xs:enumeration value="NONE" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="limit">
+        <xs:complexType>
+          <xs:attribute name="value" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:short">
+                <xs:minInclusive value="-1" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="followupEvent" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" use="required" type="xs:string" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="requirements">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="event" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="object" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="name" use="required" type="xs:string" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="ID" use="required" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="portalEventType">
+    <xs:complexContent>
+      <xs:extension base="eventType">
+        <xs:sequence>
+          <xs:element name="to" minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:attribute name="location" use="required" type="xs:string" />
+              <xs:attribute name="row" use="required" type="xs:short" />
+              <xs:attribute name="column" use="required" type="xs:short" />
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="textEventType">
+    <xs:complexContent>
+      <xs:extension base="eventType">
+        <xs:sequence>
+          <xs:element name="text" minOccurs="0" maxOccurs="unbounded" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="battleEventType">
+    <xs:complexContent>
+      <xs:extension base="eventType">
+        <xs:sequence>
+          <xs:element name="activation">
+            <xs:complexType>
+              <xs:attribute name="value" use="required">
+                <xs:simpleType>
+                  <xs:restriction base="xs:short">
+                    <xs:minInclusive value="1" />
+                    <xs:maxInclusive value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="battlegroup" minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:attribute name="name" use="required" type="xs:string" />
+              <xs:attribute name="value" use="required">
+                <xs:simpleType>
+                  <xs:restriction base="xs:short">
+                    <xs:minInclusive value="1" />
+                    <xs:maxInclusive value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="environmentType">
+    <xs:sequence>
+      <xs:element name="dimensions">
+        <xs:complexType>
+          <xs:attribute name="rows" use="required" type="xs:short" />
+          <xs:attribute name="columns" use="required" type="xs:short" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="sound">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="backgroundmusic">
+              <xs:complexType>
+                <xs:attribute name="title" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="battleback">
+        <xs:complexType>
+          <xs:attribute name="name" use="required" type="xs:string" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name ="layers">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="layer" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="tile" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="tileset">
+                          <xs:complexType>
+                            <xs:attribute name="name" use="required" type="xs:string" />
+                            <xs:attribute name="row" use="required" type="xs:short" />
+                            <xs:attribute name="column" use="required" type="xs:short" />
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                      <xs:attribute name="row" use="required" type="xs:short" />
+                      <xs:attribute name="column" use="required" type="xs:short" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="nr" use="required" type="xs:int" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="events">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="event" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="ID" use="required" type="xs:string" />
+                <xs:attribute name="column" use="required" type="xs:short" />
+                <xs:attribute name="row" use="required" type="xs:short" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <xs:complexType name="startEventType">
+    <xs:sequence>
+      <xs:element name="location" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:attribute name="environment" use="required" type="xs:string" />
+          <xs:attribute name="row" use="required" type="xs:short" />
+          <xs:attribute name="column" use="required" type="xs:short" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="party">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="character" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="inventory">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="currency">
+              <xs:complexType>
+                <xs:attribute name="value" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:short">
+                      <xs:minInclusive value="0" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="weapon" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+                <xs:attribute name="amount" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:short">
+                      <xs:minInclusive value="1" />
+                      <xs:maxInclusive value="99" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="armor" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+                <xs:attribute name="amount" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:short">
+                      <xs:minInclusive value="1" />
+                      <xs:maxInclusive value="99" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="accessory" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" use="required" type="xs:string" />
+                <xs:attribute name="amount" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:short">
+                      <xs:minInclusive value="1" />
+                      <xs:maxInclusive value="99" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

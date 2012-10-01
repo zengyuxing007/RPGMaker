@@ -1,0 +1,2254 @@
+Changed name of ability to Slash
+Added attribute Strength to ability Slash
+Changed name of ability to Shield Bash
+Added attribute Strength to ability Shield Bash
+Changed name of ability to Fireball
+Added attribute Willpower to ability Fireball
+Changed name of ability to Heal
+Added attribute Willpower to ability Heal
+Removed offensive attribute Willpower from attributes
+Removed attribute link from attribute Karma
+Removed attribute Willpower from equipment piece Oak Staff
+Removed attribute Willpower from equipment piece Fire Ring
+Destroyed attribute Willpower
+Removed defensive attribute Defense from attributes
+Removed attribute link from attribute Strength
+Removed attribute Defense from equipment piece Steel Breastplate
+Removed attribute Defense from equipment piece Silk Robe
+Destroyed attribute Defense
+Added element fire to character Lance
+Added element air to enemy Ghost
+Added element water to character Clara
+Added element earth to character Rick
+Changed name of ability to Slash
+Added attribute Strength to ability Slash
+Changed cost of ability Slash
+Changed name of ability to Shield Bash
+Added attribute Strength to ability Shield Bash
+Changed cost of ability Shield Bash
+Removed defensive ability Heal from abilities
+Destroyed ability Heal
+Changed name of ability to Fireball
+Added attribute Willpower to ability Fireball
+Changed cost of ability Fireball
+Created class Undead
+Added cat Undead to the project
+Changed multiplier of attribute Health in class Warrior
+Changed multiplier of attribute Mana in class Warrior
+Changed multiplier of attribute Agility in class Warrior
+Changed multiplier of attribute Agility in class Warrior
+Changed multiplier of attribute Evasion in class Warrior
+Changed multiplier of attribute Strength in class Warrior
+Changed multiplier of attribute Willpower in class Warrior
+Changed multiplier of attribute Defense in class Warrior
+Changed multiplier of attribute Karma in class Warrior
+Changed multiplier of attribute Health in class Magician
+Changed multiplier of attribute Mana in class Magician
+Changed multiplier of attribute Agility in class Magician
+Changed multiplier of attribute Evasion in class Magician
+Changed multiplier of attribute Strength in class Magician
+Changed multiplier of attribute Willpower in class Magician
+Changed multiplier of attribute Defense in class Magician
+Changed multiplier of attribute Defense in class Magician
+Changed multiplier of attribute Karma in class Magician
+Changed multiplier of attribute Karma in class Magician
+Changed multiplier of attribute Health in class Undead
+Changed multiplier of attribute Mana in class Undead
+Changed multiplier of attribute Agility in class Undead
+Changed multiplier of attribute Evasion in class Undead
+Changed multiplier of attribute Strength in class Undead
+Changed multiplier of attribute Willpower in class Undead
+Changed multiplier of attribute Defense in class Undead
+Changed multiplier of attribute Karma in class Undead
+Changed name of enemy Ghost
+Changed level of enemy Ghost
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Ghost
+Changed battler image of enemy Ghost
+Changed class of enemy Ghost
+Changed name of ability to Slash
+Added attribute Strength to ability Slash
+Changed cost of ability Slash
+Changed name of ability to Shield Bash
+Added attribute Strength to ability Shield Bash
+Changed cost of ability Shield Bash
+Removed defensive ability Heal from abilities
+Destroyed ability Heal
+Changed name of ability to Fireball
+Added attribute Willpower to ability Fireball
+Changed cost of ability Fireball
+Removed cat Warrior from project
+Removed class Warrior from equipment piece Rusty Sword
+Removed class Warrior from equipment piece Steel Breastplate
+Removed class Warrior from equipment piece Fire Ring
+Removed class from character Lance
+Removed class from character Rick
+Removed class from enemy Undead Farmer
+Removed class from enemy Giant Snake
+Destroyed class Warrior
+Removed cat Magician from project
+Removed class Magician from equipment piece Oak Staff
+Removed class Magician from equipment piece Silk Robe
+Removed class Magician from equipment piece Fire Ring
+Removed class from character Clara
+Destroyed class Magician
+Removed cat Undead from project
+Removed class from enemy Ghost
+Destroyed class Undead
+Created ability Scare
+Added new offensive ability Scare
+Added attribute Willpower to ability Scare
+Changed cost of ability Scare
+Added ability Scare to class Undead
+Changed name of element to LOL
+Changed name of element to air
+Changed name of element to Air
+Changed name of element to Earth
+Changed name of element to Fire
+Changed name of element to Water
+Created element Astral
+Added element Astral to the project
+Created element Umbral
+Added element Umbral to the project
+Added vulnerable element Astral to element Umbral
+Added vulnerable element Umbral to element Astral
+Removed offensive ability Slash from abilities
+Removed ability Slash from class Warrior
+Removed ability Slash from enemy Ghost
+Destroyed ability Slash
+Removed offensive ability Shield Bash from abilities
+Destroyed ability Shield Bash
+Removed offensive ability Fireball from abilities
+Removed ability Fireball from class Magician
+Destroyed ability Fireball
+Removed offensive ability Scare from abilities
+Removed ability Scare from class Undead
+Destroyed ability Scare
+Created ability Slash
+Added new offensive ability Slash
+Added attribute Strength to ability Slash
+Changed cost of ability Slash
+Created ability Crude Swing
+Added new offensive ability Crude Swing
+Added attribute Strength to ability Crude Swing
+Changed cost of ability Crude Swing
+Created ability Defy Pain
+Added new defensive ability Defy Pain
+Added attribute Strength to ability Defy Pain
+Changed cost of ability Defy Pain
+Created ability Endure Pain
+Added new defensive ability Endure Pain
+Added attribute Strength to ability Endure Pain
+Changed cost of ability Endure Pain
+Created ability Dragon SLash
+Added new offensive ability Dragon SLash
+Added attribute Strength to ability Dragon SLash
+Changed cost of ability Dragon SLash
+Changed name of ability to Dragon Slash
+Added attribute Strength to ability Dragon Slash
+Changed cost of ability Dragon Slash
+Created ability Water Whip
+Added new offensive ability Water Whip
+Added attribute Willpower to ability Water Whip
+Changed cost of ability Water Whip
+Added element Water to ability Water Whip
+Created ability Tsunami
+Added new offensive ability Tsunami
+Added attribute Willpower to ability Tsunami
+Changed cost of ability Tsunami
+Created ability Fireball
+Added new offensive ability Fireball
+Added attribute Willpower to ability Fireball
+Changed cost of ability Fireball
+Changed name of ability to Tsunami
+Added attribute Willpower to ability Tsunami
+Changed cost of ability Tsunami
+Added element Water to ability Tsunami
+Added element Fire to ability Fireball
+Created ability Meteor Shower
+Added new offensive ability Meteor Shower
+Added attribute Willpower to ability Meteor Shower
+Changed cost of ability Meteor Shower
+Added element Fire to ability Meteor Shower
+Created ability Earthstomp
+Added new offensive ability Earthstomp
+Added attribute Willpower to ability Earthstomp
+Changed cost of ability Earthstomp
+Created ability Earthquake
+Added new offensive ability Earthquake
+Added attribute Willpower to ability Earthquake
+Changed cost of ability Earthquake
+Added element Earth to ability Earthstomp
+Added element Earth to ability Earthquake
+Created ability Lightningstrike
+Added new offensive ability Lightningstrike
+Added attribute Willpower to ability Lightningstrike
+Changed cost of ability Lightningstrike
+Added element Air to ability Lightningstrike
+Created ability Lightningstorm
+Added new offensive ability Lightningstorm
+Added attribute Willpower to ability Lightningstorm
+Changed cost of ability Lightningstorm
+Created ability Ray of Judgement
+Added new offensive ability Ray of Judgement
+Added attribute Willpower to ability Ray of Judgement
+Changed cost of ability Ray of Judgement
+Created ability Death Swarm
+Added new offensive ability Death Swarm
+Added attribute Willpower to ability Death Swarm
+Changed cost of ability Death Swarm
+Added element Astral to ability Ray of Judgement
+Added element Umbral to ability Death Swarm
+Changed name of ability to Crippling Slash
+Added attribute Strength to ability Crippling Slash
+Changed cost of ability Crippling Slash
+Created ability Blessed Light
+Added new defensive ability Blessed Light
+Added attribute Willpower to ability Blessed Light
+Changed cost of ability Blessed Light
+Created ability Healer's Covenant
+Added new defensive ability Healer's Covenant
+Added attribute Willpower to ability Healer's Covenant
+Changed cost of ability Healer's Covenant
+Removed cat Undead from project
+Removed class from enemy Ghost
+Destroyed class Undead
+Removed cat Warrior from project
+Removed class Warrior from equipment piece Rusty Sword
+Removed class Warrior from equipment piece Steel Breastplate
+Removed class Warrior from equipment piece Fire Ring
+Removed class from character Lance
+Removed class from character Rick
+Removed class from enemy Undead Farmer
+Removed class from enemy Giant Snake
+Destroyed class Warrior
+Removed cat Magician from project
+Removed class Magician from equipment piece Oak Staff
+Removed class Magician from equipment piece Silk Robe
+Removed class Magician from equipment piece Fire Ring
+Removed class from character Clara
+Destroyed class Magician
+Created class Warrior
+Added cat Warrior to the project
+Created class White Mage
+Added cat White Mage to the project
+Created class Black Mage
+Added cat Black Mage to the project
+Created class Elemental
+Added cat Elemental to the project
+Changed description of class Warrior
+Changed description of class White Mage
+Changed description of class Black Mage
+Changed description of class Warrior
+Changed multiplier of attribute Health in class Warrior
+Changed multiplier of attribute Mana in class Warrior
+Changed multiplier of attribute Agility in class Warrior
+Changed multiplier of attribute Evasion in class Warrior
+Changed multiplier of attribute Strength in class Warrior
+Changed multiplier of attribute Willpower in class Warrior
+Changed multiplier of attribute Defense in class Warrior
+Changed multiplier of attribute Karma in class Warrior
+Added ability Crippling Slash to class Warrior
+Added ability Dragon Slash to class Warrior
+Added ability Crude Swing to class Warrior
+Added ability Defy Pain to class Warrior
+Changed acquisition of ability Defy Pain in class Warrior
+Added ability Endure Pain to class Warrior
+Changed description of class White Mage
+Changed description of class Black Mage
+Changed multiplier of attribute Health in class White Mage
+Changed multiplier of attribute Mana in class White Mage
+Changed multiplier of attribute Agility in class White Mage
+Changed multiplier of attribute Health in class White Mage
+Changed multiplier of attribute Evasion in class White Mage
+Changed multiplier of attribute Strength in class White Mage
+Changed multiplier of attribute Willpower in class White Mage
+Changed multiplier of attribute Defense in class White Mage
+Changed multiplier of attribute Karma in class White Mage
+Changed multiplier of attribute Health in class Black Mage
+Changed multiplier of attribute Mana in class Black Mage
+Changed multiplier of attribute Agility in class Black Mage
+Changed multiplier of attribute Evasion in class Black Mage
+Added ability Ray of Judgement to class White Mage
+Added ability Blessed Light to class White Mage
+Added ability Healer's Covenant to class White Mage
+Added ability Water Whip to class Black Mage
+Added ability Fireball to class Black Mage
+Added ability Lightningstrike to class Black Mage
+Added ability Earthstomp to class Black Mage
+Added ability Tsunami to class Black Mage
+Added ability Meteor Shower to class Black Mage
+Added ability Earthquake to class Black Mage
+Added ability Lightningstorm to class Black Mage
+Added ability Earthstomp to class Earth Elemental
+Added ability Earthquake to class Earth Elemental
+Added ability Water Whip to class Water Elemental
+Added ability Tsunami to class Water Elemental
+Added ability Fireball to class Fire Elemental
+Added ability Meteor Shower to class Fire Elemental
+Added ability Lightningstrike to class Air Elemental
+Added ability Lightningstorm to class Air Elemental
+Removed weapon Rusty Sword from project
+Destroyed equipment piece Rusty Sword
+Removed weapon Oak Staff from project
+Destroyed equipment piece Oak Staff
+Removed armor Steel Breastplate from project
+Destroyed equipment piece Steel Breastplate
+Removed armor Silk Robe from project
+Destroyed equipment piece Silk Robe
+Removed accessories Fire Ring from project
+Destroyed equipment piece Fire Ring
+Changed object of event TestText
+Changed trigger of event TestText
+Removed enemy Ghost from project
+Removed enemy Ghost from battlegroup Haunting Duo
+Removed enemy Ghost from battlegroup Farming Ghosts
+Destroyed enemy Ghost
+Removed enemy Undead Farmer from project
+Removed enemy Undead Farmer from battlegroup Farming Ghosts
+Destroyed enemy Undead Farmer
+Removed enemy Giant Snake from project
+Removed enemy Giant Snake from battlegroup Simple Snakes
+Destroyed enemy Giant Snake
+Created enemy Bandit Snatcher
+Changed level of enemy Bandit Snatcher
+Changed class of enemy Bandit Snatcher
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Snatcher
+Changed battler image of enemy Bandit Snatcher
+Added enemy Bandit Snatcher to the project
+Created enemy Bandit Snarer
+Changed level of enemy Bandit Snarer
+Changed class of enemy Bandit Snarer
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Snarer
+Changed battler image of enemy Bandit Snarer
+Added enemy Bandit Snarer to the project
+Created enemy Bandit Supporter
+Changed level of enemy Bandit Supporter
+Changed class of enemy Bandit Supporter
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Supporter
+Changed battler image of enemy Bandit Supporter
+Added enemy Bandit Supporter to the project
+Removed battlegroup Haunting Duo from project
+Removed battle group Haunting Duo from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Destroyed logger Haunting Duo
+Removed battlegroup Simple Snakes from project
+Removed battle group Simple Snakes from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Destroyed logger Simple Snakes
+Removed battlegroup Farming Ghosts from project
+Destroyed logger Farming Ghosts
+Created battlegroup Snatching Duo
+Added battlegroup Snatching Duo to the project
+Added Bandit Snatcher to battlegroup Snatching Duo
+Added Bandit Snatcher to battlegroup Snatching Duo
+Created battlegroup Bandit Trio
+Added battlegroup Bandit Trio to the project
+Added Bandit Snatcher to battlegroup Bandit Trio
+Added Bandit Snarer to battlegroup Bandit Trio
+Added Bandit Supporter to battlegroup Bandit Trio
+Created battlegroup Stealing Magic
+Added battlegroup Stealing Magic to the project
+Added Bandit Snarer to battlegroup Stealing Magic
+Added Bandit Supporter to battlegroup Stealing Magic
+Created enemy Earth Elemental
+Changed level of enemy Earth Elemental
+Changed class of enemy Earth Elemental
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Earth Elemental
+Changed battler image of enemy Earth Elemental
+Added enemy Earth Elemental to the project
+Created enemy Air Elemental
+Changed level of enemy Air Elemental
+Changed class of enemy Air Elemental
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Air Elemental
+Changed battler image of enemy Air Elemental
+Added enemy Air Elemental to the project
+Created enemy Fire Elemental
+Changed level of enemy Fire Elemental
+Changed class of enemy Fire Elemental
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Fire Elemental
+Changed battler image of enemy Fire Elemental
+Added enemy Fire Elemental to the project
+Created enemy Water Elemental
+Changed level of enemy Water Elemental
+Changed class of enemy Water Elemental
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Water Elemental
+Changed battler image of enemy Water Elemental
+Added enemy Water Elemental to the project
+Changed object of event TestText
+Changed trigger of event TestText
+Changed name of character to Lance
+Changed level of character Lance
+Changed environmental image of character Lance
+Changed battler image of character Lance
+Changed class of character Lance
+Changed name of character to Clara
+Changed level of character Clara
+Changed environmental image of character Clara
+Changed battler image of character Clara
+Changed class of character Clara
+Changed name of character to Rick
+Changed level of character Rick
+Changed environmental image of character Rick
+Changed battler image of character Rick
+Changed class of character Rick
+Changed biography of character Lance
+Changed object of event TestText
+Changed trigger of event TestText
+Added a battle group to battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Changed acquisition of ability Ray of Judgement in class White Mage
+Changed acquisition of ability Blessed Light in class White Mage
+Changed name of character to Lance
+Changed level of character Lance
+Changed environmental image of character Lance
+Changed battler image of character Lance
+Changed class of character Lance
+Changed name of character to Clara
+Changed level of character Clara
+Changed environmental image of character Clara
+Changed battler image of character Clara
+Changed class of character Clara
+Changed name of character to Rick
+Changed level of character Rick
+Changed environmental image of character Rick
+Changed battler image of character Rick
+Changed class of character Rick
+Changed object of event TestText
+Changed trigger of event TestText
+Removed battle group Snatching Duo from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Removed battle group Bandit Trio from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Removed battle group Stealing Magic from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Created battlegroup lol
+Added battlegroup lol to the project
+Added Bandit Supporter to battlegroup lol
+Added Bandit Supporter to battlegroup lol
+Changed object of event TestText
+Changed trigger of event TestText
+Added a battle group to battle event Level 1-3
+Changed object of event TestText
+Changed trigger of event TestText
+Removed battle group lol from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Removed battlegroup lol from project
+Destroyed logger lol
+Changed object of event TestText
+Changed trigger of event TestText
+Added a battle group to battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Changed name of environment to Forest
+Changed background music of environment Forest
+Changed object of event TestText
+Changed trigger of event TestText
+Changed object of event TestText
+Changed trigger of event TestText
+Removed battle group Stealing Magic from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Removed battle group Bandit Trio from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Created battlegroup test
+Added battlegroup test to the project
+Added Bandit Snatcher to battlegroup test
+Changed object of event TestText
+Changed trigger of event TestText
+Removed battle group Snatching Duo from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Changed battle music of battlegroup Snatching Duo
+Changed battle music of battlegroup Bandit Trio
+Changed battle music of battlegroup Bandit Trio
+Changed battle music of battlegroup Stealing Magic
+Changed battle music of battlegroup Stealing Magic
+Changed battle music of battlegroup test
+Removed battlegroup test from project
+Removed battle group test from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Destroyed logger test
+Changed battle music of battlegroup Snatching Duo
+Changed name of environment to Forest
+Changed background music of environment Forest
+Changed object of event TestText
+Changed trigger of event TestText
+Added a battle group to battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Changed name of enemy Bandit Snatcher
+Changed level of enemy Bandit Snatcher
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Snatcher
+Changed battler image of enemy Bandit Snatcher
+Changed class of enemy Bandit Snatcher
+Changed name of enemy Bandit Snarer
+Changed level of enemy Bandit Snarer
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Snarer
+Changed battler image of enemy Bandit Snarer
+Changed class of enemy Bandit Snarer
+Changed name of enemy Bandit Supporter
+Changed level of enemy Bandit Supporter
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Supporter
+Changed battler image of enemy Bandit Supporter
+Changed class of enemy Bandit Supporter
+Changed name of environment to ForestVillage
+Changed background music of environment ForestVillage
+Changed biography of character Lance
+Changed biography of character Clara
+Changed biography of character Clara
+Changed biography of character Lance
+Changed biography of character Rick
+Created equipment piece Wooden Spear
+Added weapon Wooden Spear to the project
+Changed description of equipment piece Wooden Spear
+Added attribute Strength to equipment piece Wooden Spear
+Added class Warrior to equipment piece Wooden Spear
+Created equipment piece Wooden Staff
+Added weapon Wooden Staff to the project
+Changed description of equipment piece Wooden Staff
+Added attribute Willpower to equipment piece Wooden Staff
+Added attribute Strength to equipment piece Wooden Staff
+Added class Black Mage to equipment piece Wooden Staff
+Added class White Mage to equipment piece Wooden Staff
+Changed description of equipment piece Wooden Staff
+Created equipment piece Bronze Daggers
+Added weapon Bronze Daggers to the project
+Changed name of equipment piece to Rusty Daggers
+Changed description of equipment piece Rusty Daggers
+Added attribute Strength to equipment piece Rusty Daggers
+Added attribute Willpower to equipment piece Rusty Daggers
+Added class Warrior to equipment piece Rusty Daggers
+Changed description of equipment piece Rusty Daggers
+Placed twohanded weapon
+Placed mainhand weapon
+Placed twohanded weapon
+Created equipment piece Ragged Vest
+Added armor Ragged Vest to the project
+Added attribute Defense to equipment piece Ragged Vest
+Added class Warrior to equipment piece Ragged Vest
+Created equipment piece Ragged Pants
+Added armor Ragged Pants to the project
+Added attribute Evasion to equipment piece Ragged Pants
+Added attribute Defense to equipment piece Ragged Pants
+Added class Warrior to equipment piece Ragged Pants
+Created equipment piece Simple Robe
+Added armor Simple Robe to the project
+Removed armor Simple Robe from project
+Destroyed equipment piece Simple Robe
+Created equipment piece Simple Robe
+Added armor Simple Robe to the project
+Added attribute Defense to equipment piece Simple Robe
+Added attribute Karma to equipment piece Simple Robe
+Added class White Mage to equipment piece Simple Robe
+Added class Black Mage to equipment piece Simple Robe
+Created equipment piece Ring of Power
+Added accessory Ring of Power to the project
+Changed description of equipment piece Ring of Power
+Added attribute Strength to equipment piece Ring of Power
+Added attribute Karma to equipment piece Ring of Power
+Added class Warrior to equipment piece Ring of Power
+Added class White Mage to equipment piece Ring of Power
+Added class Black Mage to equipment piece Ring of Power
+Changed description of equipment piece Ring of Power
+Placed torso
+Placed leggings
+Placed ring
+Placed torso
+Placed ring
+Placed torso
+Placed ring
+Changed biography of character Clara
+Added class Warrior to equipment piece Wooden Staff
+Changed object of event TestText
+Changed trigger of event TestText
+Changed name of enemy Bandit Snatcher
+Changed level of enemy Bandit Snatcher
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Snatcher
+Changed battler image of enemy Bandit Snatcher
+Changed class of enemy Bandit Snatcher
+Changed name of enemy Bandit Snarer
+Changed level of enemy Bandit Snarer
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Snarer
+Changed battler image of enemy Bandit Snarer
+Changed class of enemy Bandit Snarer
+Changed name of enemy Bandit Supporter
+Changed level of enemy Bandit Supporter
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Supporter
+Changed battler image of enemy Bandit Supporter
+Changed class of enemy Bandit Supporter
+Changed name of enemy Bandit Snatcher
+Changed level of enemy Bandit Snatcher
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Snatcher
+Changed battler image of enemy Bandit Snatcher
+Changed class of enemy Bandit Snatcher
+Created equipment piece Ring of Minor Energy
+Added accessory Ring of Minor Energy to the project
+Changed description of equipment piece Ring of Minor Energy
+Added attribute Mana to equipment piece Ring of Minor Energy
+Added class Warrior to equipment piece Ring of Minor Energy
+Added class White Mage to equipment piece Ring of Minor Energy
+Added class Black Mage to equipment piece Ring of Minor Energy
+Added class Earth Elemental to equipment piece Ring of Minor Energy
+Added class Water Elemental to equipment piece Ring of Minor Energy
+Added class Fire Elemental to equipment piece Ring of Minor Energy
+Added class Air Elemental to equipment piece Ring of Minor Energy
+Created equipment piece Water Earrings
+Added accessory Water Earrings to the project
+Changed description of equipment piece Water Earrings
+Added attribute Willpower to equipment piece Water Earrings
+Added class White Mage to equipment piece Water Earrings
+Added class Black Mage to equipment piece Water Earrings
+Added element Water to equipment piece Water Earrings
+Changed description of equipment piece Water Earrings
+Added accessory Ring of Minor Energy to enemy drops
+Added accessory Water Earrings to enemy drops
+Removed accessory Ring of Minor Energy from enemy drops
+Added accessory Ring of Power to enemy drops
+Changed drop chance of accessory in enemy drops
+Added accessory Ring of Minor Energy to enemy drops
+Changed battle music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed battle music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed battle music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed victory music of battlegroup Bandit Trio
+Changed victory music of battlegroup Bandit Trio
+Changed victory music of battlegroup Stealing Magic
+Changed victory music of battlegroup Stealing Magic
+Changed name of enemy Bandit Snarer
+Changed level of enemy Bandit Snarer
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Snarer
+Changed battler image of enemy Bandit Snarer
+Changed class of enemy Bandit Snarer
+Changed name of enemy Bandit Supporter
+Changed level of enemy Bandit Supporter
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Bandit Supporter
+Changed battler image of enemy Bandit Supporter
+Changed class of enemy Bandit Supporter
+Changed biography of character Clara
+Changed biography of character Rick
+Changed biography of character Clara
+Changed biography of character Clara
+Changed biography of character Clara
+Changed biography of character Clara
+Changed biography of character Clara
+Changed name of character to Lance
+Changed level of character Lance
+Changed environmental image of character Lance
+Changed battler image of character Lance
+Changed class of character Lance
+Added element Earth to character Lance
+Added element Air to character Clara
+Removed element Air from character Clara
+Added element Astral to character Clara
+Added element Fire to character Rick
+Added element Earth to enemy Earth Elemental
+Added element Air to enemy Air Elemental
+Added element Fire to enemy Fire Elemental
+Added element Water to enemy Water Elemental
+Changed battle music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Created battlegroup Elemental Madness
+Added battlegroup Elemental Madness to the project
+Changed battle music of battlegroup Elemental Madness
+Changed victory music of battlegroup Elemental Madness
+Added Fire Elemental to battlegroup Elemental Madness
+Added Air Elemental to battlegroup Elemental Madness
+Added Earth Elemental to battlegroup Elemental Madness
+Changed object of event TestText
+Changed trigger of event TestText
+Removed battle group Snatching Duo from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Removed battle group Bandit Trio from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Removed battle group Stealing Magic from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Changed biography of character Clara
+Removed element Astral from character Clara
+Added element Water to character Clara
+Removed element Air from project
+Removed vulnerable element Air from element Water
+Removed resistant element Air from element Earth
+Removed element Air from ability Lightningstrike
+Removed element Air from enemy Air Elemental
+Destroyed element Air
+Removed element Earth from project
+Removed resistant element Earth from element Fire
+Removed element Earth from ability Earthstomp
+Removed element Earth from ability Earthquake
+Removed element Earth from character Lance
+Removed element Earth from enemy Earth Elemental
+Destroyed element Earth
+Removed element Fire from project
+Removed resistant element Fire from element Water
+Removed element Fire from ability Fireball
+Removed element Fire from ability Meteor Shower
+Removed element Fire from character Rick
+Removed element Fire from enemy Fire Elemental
+Destroyed element Fire
+Removed element Water from project
+Removed element Water from ability Water Whip
+Removed element Water from ability Tsunami
+Removed element Water from equipment piece Water Earrings
+Removed element Water from enemy Water Elemental
+Removed element Water from character Clara
+Destroyed element Water
+Created element Fire
+Added element Fire to the project
+Created element Ice
+Added element Ice to the project
+Created element Wind
+Added element Wind to the project
+Created element Earth
+Added element Earth to the project
+Created element Electric
+Added element Electric to the project
+Created element water
+Added element water to the project
+Changed name of element to Water
+Added vulnerable element Wind to element Earth
+Added resistant element Electric to element Earth
+Added vulnerable element Earth to element Electric
+Added resistant element Water to element Electric
+Added vulnerable element Water to element Fire
+Added resistant element Ice to element Fire
+Added vulnerable element Fire to element Ice
+Added resistant element Wind to element Ice
+Added vulnerable element Electric to element Water
+Added resistant element Fire to element Water
+Added vulnerable element Ice to element Wind
+Added resistant element Earth to element Wind
+Created enemy Angel
+Changed level of enemy Angel
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Angel
+Changed battler image of enemy Angel
+Added enemy Angel to the project
+Created class Angel
+Added cat Angel to the project
+Changed description of class Angel
+Removed cat Angel from project
+Destroyed class Angel
+Changed name of enemy Angel
+Changed level of enemy Angel
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Angel
+Changed battler image of enemy Angel
+Changed class of enemy Angel
+Added ability Dragon Slash to enemy Angel
+Created enemy Demon
+Changed level of enemy Demon
+Changed class of enemy Demon
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Demon
+Changed battler image of enemy Demon
+Added enemy Demon to the project
+Changed name of enemy Demon
+Changed level of enemy Demon
+Set experience of enemy drops
+Set currency of enemy drops
+Changed environmental image of enemy Demon
+Changed battler image of enemy Demon
+Changed class of enemy Demon
+Changed battle music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Created battlegroup Angels and Demons
+Added battlegroup Angels and Demons to the project
+Added Angel to battlegroup Angels and Demons
+Added Demon to battlegroup Angels and Demons
+Changed battle music of battlegroup Angels and Demons
+Changed victory music of battlegroup Angels and Demons
+Changed name of character to Lance
+Changed level of character Lance
+Changed environmental image of character Lance
+Changed battler image of character Lance
+Changed class of character Lance
+Changed name of character to Clara
+Changed level of character Clara
+Changed environmental image of character Clara
+Changed battler image of character Clara
+Changed class of character Clara
+Changed name of character to Rick
+Changed level of character Rick
+Changed environmental image of character Rick
+Changed battler image of character Rick
+Changed class of character Rick
+Changed object of event TestText
+Changed trigger of event TestText
+Removed battle group Elemental Madness from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Added element Umbral to enemy Demon
+Added element Astral to enemy Angel
+Changed name of class to Warrior
+Changed primary attribute of class Warrior
+Changed name of class to White Mage
+Changed primary attribute of class White Mage
+Changed name of class to Black Mage
+Changed primary attribute of class Black Mage
+Changed name of class to Earth Elemental
+Changed primary attribute of class Earth Elemental
+Changed name of class to Water Elemental
+Changed primary attribute of class Water Elemental
+Changed name of class to Fire Elemental
+Changed primary attribute of class Fire Elemental
+Changed name of class to Air Elemental
+Changed primary attribute of class Air Elemental
+Changed name of class to Warrior
+Changed primary attribute of class Warrior
+Changed name of class to White Mage
+Changed primary attribute of class White Mage
+Changed name of class to Black Mage
+Changed primary attribute of class Black Mage
+Changed name of class to Earth Elemental
+Changed primary attribute of class Earth Elemental
+Changed name of class to Water Elemental
+Changed primary attribute of class Water Elemental
+Changed name of class to Fire Elemental
+Changed primary attribute of class Fire Elemental
+Changed name of class to Air Elemental
+Changed primary attribute of class Air Elemental
+Changed object of event TestText
+Changed trigger of event TestText
+Changed ID of event to TestText
+Changed activation limit of event TestText
+Replaced set of requirements of event TestText
+Set followup event of event TestText
+Changed object of event TestText
+Changed trigger of event TestText
+Removed battle group Angels and Demons from battle event Level 1-3
+Removed battle group from battle event Level 1-3
+Added a battle group to battle event Level 1-3
+Created environment Forest Village Interior 1
+Added environment Forest Village Interior 1 to the project
+Created tileset static_tileset_6
+Added tileset static_tileset_6 to the project
+Changed name of tileset to static_tileset6
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Created tileset auto_tileset6
+Added tileset auto_tileset6 to the project
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Created tileset auto_tileset7
+Added tileset auto_tileset7 to the project
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Flooded layer of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed tile of environment Forest Village Interior 1
+Changed object of event TestText
+Changed trigger of event TestText
+Changed object of event Portal: from ForestVillage to
+Changed trigger of event Portal: from ForestVillage to
+Changed ID of event to Portal: from ForestVillage to ForestVillageInterior1
+Changed activation limit of event Portal: from ForestVillage to ForestVillageInterior1
+Replaced set of requirements of event Portal: from ForestVillage to ForestVillageInterior1
+Changed destination of portal event Portal: from ForestVillage to ForestVillageInterior1
+Created an event with ID Portal: from ForestVillageInterior1 to ForestVillage
+Created portal event with ID Portal: from ForestVillageInterior1 to ForestVillage
+Changed activation limit of event Portal: from ForestVillageInterior1 to ForestVillage
+Replaced set of requirements of event Portal: from ForestVillageInterior1 to ForestVillage
+Added portal event with ID Portal: from ForestVillageInterior1 to ForestVillage
+Changed destination of portal event Portal: from ForestVillageInterior1 to ForestVillage
+Changed trigger of event Portal: from ForestVillageInterior1 to ForestVillage
+Changed object of event Portal: from ForestVillage to ForestVillageInterior1
+Changed trigger of event Portal: from ForestVillage to ForestVillageInterior1
+Added event Portal: from ForestVillageInterior1 to ForestVillage to environment Forest Village Interior 1
+Changed location of start event
+Changed name of environment to Forest Village Interior 1
+Changed background music of environment Forest Village Interior 1
+Changed access of a tile in tileset auto_tileset7
+Changed access of a tile in tileset auto_tileset7
+Changed access of a tile in tileset auto_tileset7
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed description of class Warrior
+Added ability Earthstomp to character Lance
+Added ability Earthquake to character Lance
+Added element Earth to character Lance
+Changed description of enemy Bandit Snatcher
+Changed battle music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Changed battle music of battlegroup Angels and Demons
+Removed battlegroup Angels and Demons from project
+Destroyed logger Angels and Demons
+Changed battle music of battlegroup Snatching Duo
+Changed victory music of battlegroup Snatching Duo
+Added element Water to character Clara
+Added ability Water Whip to character Clara
+Added ability Tsunami to character Clara
+Added element Electric to character Rick
+Added ability Lightningstrike to character Rick
+Added ability Lightningstorm to character Rick
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset static_tileset6
+Changed access of a tile in tileset auto_tileset7
+Changed access of a tile in tileset auto_tileset7
+Changed access of a tile in tileset auto_tileset7
+Created environment Forest Village Interior 2
+Added environment Forest Village Interior 2 to the project
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Flooded layer of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed tile of environment Forest Village Interior 2
+Changed object of event TestText
+Changed trigger of event TestText
+Created an event with ID Forest Village: Book is not for me
+Created text event with ID Forest Village: Book is not for me
+Changed activation limit of event Forest Village: Book is not for me
+Replaced set of requirements of event Forest Village: Book is not for me
+Added text event with ID Forest Village: Book is not for me
+Added message to text event Forest Village: Book is not for me
+Edited message of text event Forest Village: Book is not for me
+Changed trigger of event Forest Village: Book is not for me
+Changed object of event Portal: from ForestVillage to
+Changed trigger of event Portal: from ForestVillage to
+Changed ID of event to Portal: from ForestVillage to Interior 1
+Changed activation limit of event Portal: from ForestVillage to Interior 1
+Replaced set of requirements of event Portal: from ForestVillage to Interior 1
+Changed destination of portal event Portal: from ForestVillage to Interior 1
+Changed object of event TestText
+Changed trigger of event TestText
+Changed image of environment object Old Lady
+Changed image of environment object Door
+Created environment object Lance's Mother
+Added object Lance's Mother to the project
+Changed image of environment object Lance's Mother
+Destroyed text event TestText
+Changed name of environment object to Woman1
+Removed object Old Lady from project
+Created an event with ID Story: Introduction
+Created text event with ID Story: Introduction
+Changed activation limit of event Story: Introduction
+Replaced set of requirements of event Story: Introduction
+Added text event with ID Story: Introduction
+Changed ID of event to Story: Introduction
+Changed activation limit of event Story: Introduction
+Replaced set of requirements of event Story: Introduction
+Added message to text event Story: Introduction
+Edited message of text event Story: Introduction
+Added message to text event Story: Introduction
+Edited message of text event Story: Introduction
+Added message to text event Story: Introduction
+Edited message of text event Story: Introduction
+Added message to text event Story: Introduction
+Edited message of text event Story: Introduction
+Added event Story: Introduction to environment Forest Village Interior 1
+Removed event from environment Forest Village Interior 1
+Added event Story: Introduction to environment Forest Village Interior 1
+Added event Story: Introduction to environment Forest Village Interior 1
+Changed location of start event
+Changed trigger of event Portal: from Forest to ForestVillage
+Created an event with ID Portal: from FVInt1 to FVInt2
+Created portal event with ID Portal: from FVInt1 to FVInt2
+Changed activation limit of event Portal: from FVInt1 to FVInt2
+Replaced set of requirements of event Portal: from FVInt1 to FVInt2
+Added portal event with ID Portal: from FVInt1 to FVInt2
+Changed destination of portal event Portal: from FVInt1 to FVInt2
+Changed object of event Portal: from ForestVillage to Interior 1
+Changed trigger of event Portal: from ForestVillage to Interior 1
+Changed ID of event to Portal: from FV to FVInt1
+Changed activation limit of event Portal: from FV to FVInt1
+Replaced set of requirements of event Portal: from FV to FVInt1
+Changed ID of event to Portal: from F to FV
+Changed activation limit of event Portal: from F to FV
+Replaced set of requirements of event Portal: from F to FV
+Changed ID of event to Portal: from FV to F
+Changed activation limit of event Portal: from FV to F
+Replaced set of requirements of event Portal: from FV to F
+Created an event with ID Portal: from FVInt1 to FV
+Created portal event with ID Portal: from FVInt1 to FV
+Changed activation limit of event Portal: from FVInt1 to FV
+Replaced set of requirements of event Portal: from FVInt1 to FV
+Added portal event with ID Portal: from FVInt1 to FV
+Changed destination of portal event Portal: from FVInt1 to FV
+Created an event with ID Portal: from FVInt2 to FVInt1
+Created portal event with ID Portal: from FVInt2 to FVInt1
+Changed activation limit of event Portal: from FVInt2 to FVInt1
+Replaced set of requirements of event Portal: from FVInt2 to FVInt1
+Added portal event with ID Portal: from FVInt2 to FVInt1
+Changed destination of portal event Portal: from FVInt2 to FVInt1
+Added event Portal: from FVInt1 to FVInt2 to environment Forest Village Interior 1
+Changed trigger of event Portal: from FVInt1 to FVInt2
+Changed trigger of event Portal: from FVInt2 to FVInt1
+Changed object of event Portal: from FV to FVInt1
+Changed trigger of event Portal: from FV to FVInt1
+Changed object of event Portal: from FV to FVInt1
+Changed trigger of event Portal: from FV to FVInt1
+Added event Forest Village: Book is not for me to environment Forest Village Interior 1
+Changed name of environment to Forest Village Interior 1
+Changed background music of environment Forest Village Interior 1
+Changed name of environment to Forest Village Interior 2
+Changed background music of environment Forest Village Interior 2
+Added event Portal: from FVInt2 to FVInt1 to environment Forest Village Interior 2
+Changed trigger of event Story: Introduction
+Created an event with ID Text: FVInt1 Mom
+Created text event with ID Text: FVInt1 Mom
+Changed activation limit of event Text: FVInt1 Mom
+Replaced set of requirements of event Text: FVInt1 Mom
+Added text event with ID Text: FVInt1 Mom
+Added message to text event Text: FVInt1 Mom
+Edited message of text event Text: FVInt1 Mom
+Removed event from environment Forest Village Interior 1
+Destroyed text event Forest Village: Book is not for me
+Changed object of event Text: FVInt1 Mom
+Changed trigger of event Text: FVInt1 Mom
+Added event Text: FVInt1 Mom to environment Forest Village Interior 1
+Added event Portal: from FVInt1 to FV to environment Forest Village Interior 1
+Changed trigger of event Portal: from F to FV
+Changed object of event Portal: from FV to FVInt1
+Changed trigger of event Portal: from FV to FVInt1
+Changed trigger of event Portal: from FVInt1 to FV
+Changed trigger of event Portal: from FVInt1 to FV
+Created an event with ID Text: FV Old man
+Created text event with ID Text: FV Old man
+Changed activation limit of event Text: FV Old man
+Replaced set of requirements of event Text: FV Old man
+Added text event with ID Text: FV Old man
+Added message to text event Text: FV Old man
+Edited message of text event Text: FV Old man
+Added message to text event Text: FV Old man
+Edited message of text event Text: FV Old man
+Added message to text event Text: FV Old man
+Edited message of text event Text: FV Old man
+Edited message of text event Text: FV Old man
+Changed object of event Text: FV Old man
+Changed trigger of event Text: FV Old man
+Added event Text: FV Old man to environment ForestVillage
+Created an event with ID Text: FV Child
+Created text event with ID Text: FV Child
+Changed activation limit of event Text: FV Child
+Replaced set of requirements of event Text: FV Child
+Added text event with ID Text: FV Child
+Added message to text event Text: FV Child
+Edited message of text event Text: FV Child
+Edited message of text event Text: FV Child
+Added event Text: FV Child to environment ForestVillage
+Created environment object Child1
+Added object Child1 to the project
+Changed image of environment object Child1
+Changed object of event Text: FV Child
+Changed trigger of event Text: FV Child
+Added a battle group to battle event Level 1-3
+Changed ID of event to Level 1-3
+Changed activation limit of event Level 1-3
+Replaced set of requirements of event Level 1-3
+Changed activation of battle event Level 1-3
+Created an cat system
+Created an element system
+Created an tileset system
+Created an equipment system
+Created attribute Health
+Created attribute Mana
+Created attribute Agility
+Created attribute Evasion
+Created the event system
+Created an enemy system
+Created an object system
+Created a character system
+Created an battlegroup system
+Created an environment system
+Created project test
+Created class test
+Added cat test to the project
+Removed primary attribute from class test

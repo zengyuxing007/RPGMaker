@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPGMaker", "RPGMaker\RPGMaker.vcxproj", "{24C33533-8BEB-46DC-950E-321AB4B694F5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{553AF719-053F-49A4-B6F0-2454330ADB7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C33533-8BEB-46DC-950E-321AB4B694F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24C33533-8BEB-46DC-950E-321AB4B694F5}.Debug|Win32.Build.0 = Debug|Win32
+		{24C33533-8BEB-46DC-950E-321AB4B694F5}.Release|Win32.ActiveCfg = Release|Win32
+		{24C33533-8BEB-46DC-950E-321AB4B694F5}.Release|Win32.Build.0 = Release|Win32
+		{553AF719-053F-49A4-B6F0-2454330ADB7C}.Debug|Win32.ActiveCfg = Debug
+		{553AF719-053F-49A4-B6F0-2454330ADB7C}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		QtVersion = 4.8.2
+	EndGlobalSection
+EndGlobal
